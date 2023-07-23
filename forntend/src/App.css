@@ -1,0 +1,162 @@
+body{
+  width:50%;
+  margin: 0 auto;
+}
+
+header{
+  text-align: center;
+
+}
+header h1 {
+  font-size: medium;
+  color: blue;
+  font-weight: 300;
+}
+
+input
+{
+  font-size :30px;
+  color :aqua;
+  width: 100%;
+  padding: 5%;
+
+}
+.task{
+  background-color: blueviolet;
+  padding: 20px;
+  margin: 6px;
+  overflow-x:hidden ;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.task.span{
+  color: brown;
+
+}
+.icon{
+  float: right;
+  margin-right: 20px;
+
+}
+/* Add this CSS to your stylesheets */
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+/* Style for the login form container */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the login form inputs and button */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the register link */
+.register-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+/* LoginPage.css */
+
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  background-color: #f0f0f0; 
+}
+
+
+.login-form {
+
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+/* RegisterForm.css */
+
+/* Style for the container */
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Style for the registration form */
+.register-form {
+  width: 500px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Style for the form inputs */
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the submit button */
+.register-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
